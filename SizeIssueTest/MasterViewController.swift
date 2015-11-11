@@ -16,7 +16,7 @@ class MasterViewController: UITableViewController {
             The following line is causing huge performance problems
             When commented out memory peak is at ~350 MB when activated: 1.3 GB and app is terminated
 */
-            NSBackgroundColorAttributeName: UIColor.whiteColor() // <---- this line
+            NSBackgroundColorAttributeName: UIColor.greenColor() // <---- this line
             ])
         return attributedString
     }
